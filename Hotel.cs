@@ -10,6 +10,11 @@ namespace Ateam
         public float _preHp1;   // 前フレームのHp（サブ１）
         public float _preHp2;   // 前フレームのHp（サブ２）
 
+        public int _actorId0;   // ID（メイン）
+        public int _actorId1;   // ID（サブ１）
+        public int _actorId2;   // ID（サブ２）
+
+
 
         //---------------------------------------------------
         // InitializeAI
@@ -82,6 +87,10 @@ namespace Ateam
 
 
             // アイテム使用判定
+            
+
+
+
 
             // 攻撃ルーチン
 
